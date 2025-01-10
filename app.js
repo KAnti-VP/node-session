@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import session from "express-session";
-import sequelize from "./data/db.js";
+import sequelize from "./data/database.js";
 import usersRoutes from "./routes/users.js";
 import cookieParser from "cookie-parser";
 
