@@ -43,3 +43,12 @@ sequelize
 		});
 	})
 	.catch((err) => console.log(err));
+
+/*
+try {
+	result = await sequelize.sync()
+	app.listen(PORT, () => { console.log(`Server runs om port ${PORT}`)})
+} catch (err) {
+	console.log(`Error: ${err.message}`)
+}
+*/
